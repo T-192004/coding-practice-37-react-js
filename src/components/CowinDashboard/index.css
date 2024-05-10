@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.dashboard-container {
+  background-color: #161625;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dashboard-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 30px 10px 20px;
+  text-align: left;
+  width: 80%;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 8px;
+}
+.logo-title {
+  color: #2cc6c6;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.charts-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  text-align: left;
+}
+.loader {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+.dashboard-title {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 500;
+}
+.faliure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.faliure-img {
+  width: 40%;
+  height: 40%;
+}
+.failure-title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 24px;
+}
