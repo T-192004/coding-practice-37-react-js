@@ -1,9 +1,10 @@
 // Write your code here
 import {Component} from 'react'
+import Loader from 'react-loader-spinner'
 import VaccinationByAge from '../VaccinationByAge'
 import VaccinationCoverage from '../VaccinationCoverage'
 import VaccinationByGender from '../VaccinationByGender'
-import Loader from 'react-loader-spinner'
+
 import './index.css'
 
 const apiStatusConstants = {
