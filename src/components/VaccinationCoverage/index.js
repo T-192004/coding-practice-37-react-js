@@ -15,7 +15,7 @@ import './index.css'
 const VaccinationCoverage = props => {
   const {last7DaysVaccination} = props
   return (
-    <BarChart data={last7DaysVaccination}>
+    <BarChart data={last7DaysVaccination} width={1000} height={500}>
       <CartesianGrid strokeDasharray="0" visibility="hidden" />
       <XAxis dataKey="vaccineDate" />
       <YAxis />
