@@ -4,7 +4,7 @@ import {PieChart, Pie, Cell, ResponsiveContainer, Legend} from 'recharts'
 const VaccinationByGender = props => {
   const {vaccinationByGender} = props
   return (
-    <PieChart>
+    <PieChart width={1000} height={500}>
       <Pie
         cx="70%"
         cy="40%"
